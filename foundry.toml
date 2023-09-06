@@ -2,5 +2,8 @@
 src = "src"
 out = "out"
 libs = ["lib"]
+remappings = ["@chainlink/contracts/=lib/chainlink-brownie-contracts/contracts/"]
+# @note ffi sayesinde scriptleri CLI' dan çalıştırabiliriz. Bunu devopstool' u kullanmak için true' ya döndürdük. Zorunlu olmadıkça false' da tut
+ffi = true
 
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
